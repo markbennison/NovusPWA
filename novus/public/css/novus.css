@@ -1,0 +1,140 @@
+﻿@font-face {
+	font-family: 'Crossten-ExtraBold';
+	src: url('../img/Crossten-ExtraBold.woff2')format('woff2');
+	font-weight: 800;
+	font-style: normal;
+	font-display: fallback;
+}
+@font-face {
+	font-family: 'Crossten-ExtraLight';
+	src: url('../img/Crossten-ExtraLight.woff2')format('woff2');
+	font-weight: 200;
+	font-style: normal;
+	font-display: fallback;
+}
+
+.navbar-nav {
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+
+	.navbar-nav li:nth-of-type(1) a {
+		background-image: url('../img/icon_profile.svg');
+	}
+
+	.navbar-nav li:nth-of-type(2) a {
+		background-image: url('../img/icon_reflect.svg');
+	}
+
+	.navbar-nav li:nth-of-type(3) a {
+		background-image: url('../img/icon_employer.svg');
+	}
+
+	.navbar-nav li:nth-of-type(4) a {
+		background-image: url('../img/icon_college.svg');
+	}
+
+	.navbar-nav a {
+		background-size: 60px 48px;
+		background-repeat: no-repeat;
+		background-position: center;
+		min-height: 48px;
+		min-width: 60px;
+		height: 100%;
+		width: 100%;
+	}
+
+body {
+	font-family: 'Crossten-ExtraLight', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Crossten-ExtraBold', Helvetica, Arial, sans-serif;
+	margin: 0.5em 0;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.4em;
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+.bg-novus {
+	background-color: #0071bc!important;
+}
+
+.bg-white {
+	background-color: #ffffff!important;
+}
+
+a.bg-novus:focus, a.bg-novus:hover, button.bg-novus:focus, button.bg-novus:hover {
+	background-color: #0F9EFB!important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	color: #fff;
+	background-color: #0F9EFB;
+}
+
+.container {
+	background-color: #ffffff;
+}
+
+.novus-avoid-nav {
+	margin-top: 84px;
+}
+
+.novus-btn-add {
+	background-image: url('../img/icon_add.svg');
+}
+
+.navText {
+	position: absolute;
+	top: -1200px;
+}
+
+#mainImg, .mainImgSmall {
+	width: 100%;
+	height: auto;
+}
+
+#subImg {
+	width: 80%;
+	min-width: 200px;
+	max-width: 300px;
+	height: auto;
+	margin: 0 auto;
+	display: block;
+}
+
+
+#myMap {
+    width:100%;
+    height:300px;
+} 
+#myMap.offline-map {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    max-width:642px;
+    background-image: url('../img/offlinemap.jpg');
+  }
+
+	/*  define for pixel-device ratio */
+		  
+	@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min--moz-device-pixel-ratio: 1.5),
+	only screen and (-o-device-pixel-ratio: 3/2),
+	only screen and (min-device-pixel-ratio: 1.5) {
+
+	.footer p {
+	  margin-top: 10px;
+	  text-align: center;
+	}
+}
