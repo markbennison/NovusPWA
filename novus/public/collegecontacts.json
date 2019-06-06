@@ -1,0 +1,20 @@
+[
+	{
+		"name": "James Gordon",
+		"title": "Senior Employment Team Manager",
+		"tel": "0191 404 1987",
+		"email": "jamesgordon@novus.com"
+	},
+	{
+		"name": "Renee Montoya",
+		"title": "Work Placement Officer",
+		"tel": "0191 475 1992",
+		"email": "reneemontoya@novus.com"
+	},
+	{
+		"name": "Harvey Dent",
+		"title": "Work Placement Officer",
+		"tel": "0191 081 1954",
+		"email": "harveydent@novus.com"
+	}
+]

@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Novus: My Profile</title>
+	<meta name="Description" content="Novus by Aquilonius: My Profile. Personal profile page.">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="theme-color" content="#0071bc">
+
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link href="css/novus.css" rel="stylesheet" />
+
+	<!-- FirebaseUI JS and CSS for Firebase Authentication -->
+	<script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+	<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+	<link rel="manifest" href="manifest.json">
+	<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#0071bc">
+	<link rel="shortcut icon" href="/img/favicon.ico">
+
+	<meta name="msapplication-TileColor" content="#0071bc">
+	<meta name="msapplication-config" content="/img/browserconfig.xml">
+</head>
+
+<body class="bg-novus">
+	<div class="row no-gutters">
+		<div class="col-12 fixed-top">
+			<header class="bg-novus text-white pb-2">
+				<h1 class="text-center my-0">Account</h1>
+			</header>
+			<nav class="navbar navbar-dark navbar-expand-sm bg-novus justify-content-center p-0">
+				<ul class="navbar-nav w-100 nav-pills">
+					<li class="nav-item w-100">
+						<a class="nav-link rounded-0 active" href="account.html"><span class="navText">My
+								Account</span></a>
+					</li>
+					<li class="nav-item w-100">
+						<a class="nav-link rounded-0" href="reflect.html"><span class="navText">My
+								Reflection</span></a>
+					</li>
+					<li class="nav-item w-100">
+						<a class="nav-link rounded-0" href="employer.html"><span class="navText">My
+								Employers</span></a>
+					</li>
+					<li class="nav-item w-100">
+						<a class="nav-link rounded-0" href="college.html"><span class="navText">My
+							College</span></a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="container novus-avoid-nav">
+		<div class="row no-gutters">
+			<div class="col-12">
+				<h2 class="text-center">My Account</h2>
+				<div class="col-12 account-details">
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="bg-novus text-white text-center py-3">
+		<a href="" class="text-white py-3" id="logout">
+			Sign out
+		</a>
+		<p class="pt-3">&copy; 2019 - Novus by Aquilonius</p>
+	</footer>
+
+	<div id="alertArea" class="alertArea">
+		<!-- Alerts inserted here -->
+	</div>
+
+	<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-firestore.js"></script>
+	<script src="js/firebase-init.js"></script>
+	<script src="js/firestore-init.js"></script>
+	<script src="js/auth.js"></script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+
+	<script src="js/account.js"></script>
+
+</body>
+
+</html>
